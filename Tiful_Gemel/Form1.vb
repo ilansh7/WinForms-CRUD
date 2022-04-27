@@ -15,24 +15,33 @@ Public Class Form1 : Implements IDisposable
         Dim DepositDate As DateTime = dtDepositDate.Value
         Dim Amount As Decimal = 0 'txtAmount.Text
 
+        txtAmount.BackColor = System.Drawing.SystemColors.Window
+        dtDepositDate.CalendarMonthBackground = System.Drawing.SystemColors.Window
+        dtBitrhDay.CalendarMonthBackground = System.Drawing.SystemColors.Window
+        txtIDNumber.BackColor = System.Drawing.SystemColors.Window
+
         ' Validations
         Dim dblAmount As Double = 0.0
         If Double.TryParse(txtAmount.Text, dblAmount) Then
             Amount = dblAmount
         Else
             errMsg = "הסכום אינו תקין."
+            txtAmount.BackColor = Color.Pink
             formIsValid = False
         End If
         If dtDepositDate.Text = " " Then
             errMsg = "שדה תאריך הפקדה הוא חובה."
+            dtDepositDate.CalendarMonthBackground = Color.Pink
             formIsValid = False
         End If
         If dtBitrhDay.Text = " " Then
             errMsg = "שדה תאריך לידה הוא חובה."
+            dtBitrhDay.CalendarMonthBackground = Color.Pink
             formIsValid = False
         End If
         If String.IsNullOrEmpty(txtIDNumber.Text) Then
             errMsg = "שדה מזהה לקוח הוא חובה."
+            txtIDNumber.BackColor = Color.Pink
             formIsValid = False
         End If
         If formIsValid Then
@@ -109,6 +118,10 @@ Public Class Form1 : Implements IDisposable
     End Sub
 
     Private Sub btnClearForm_Click(sender As Object, e As EventArgs) Handles btnClearForm.Click
+        txtAmount.BackColor = System.Drawing.SystemColors.Window
+        dtDepositDate.CalendarMonthBackground = System.Drawing.SystemColors.Window
+        dtBitrhDay.CalendarMonthBackground = System.Drawing.SystemColors.Window
+        txtIDNumber.BackColor = System.Drawing.SystemColors.Window
         txtDepositID.Text = ""
         txtIDNumber.Text = ""
         dtBitrhDay.CustomFormat = " "  'An empty SPACE

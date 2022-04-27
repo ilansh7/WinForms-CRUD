@@ -67,6 +67,7 @@ Partial Class Form1
         'lblDepositDate
         '
         Me.lblDepositDate.AutoSize = True
+        Me.lblDepositDate.Cursor = System.Windows.Forms.Cursors.No
         Me.lblDepositDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDepositDate.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.lblDepositDate.Location = New System.Drawing.Point(33, 220)
@@ -105,7 +106,7 @@ Partial Class Form1
         Me.dtBitrhDay.Location = New System.Drawing.Point(198, 182)
         Me.dtBitrhDay.Name = "dtBitrhDay"
         Me.dtBitrhDay.Size = New System.Drawing.Size(200, 20)
-        Me.dtBitrhDay.TabIndex = 8
+        Me.dtBitrhDay.TabIndex = 7
         '
         'dtDepositDate
         '
@@ -115,7 +116,7 @@ Partial Class Form1
         Me.dtDepositDate.Location = New System.Drawing.Point(198, 220)
         Me.dtDepositDate.Name = "dtDepositDate"
         Me.dtDepositDate.Size = New System.Drawing.Size(200, 20)
-        Me.dtDepositDate.TabIndex = 9
+        Me.dtDepositDate.TabIndex = 8
         '
         'txtIDNumber
         '
@@ -123,7 +124,7 @@ Partial Class Form1
         Me.txtIDNumber.Location = New System.Drawing.Point(198, 143)
         Me.txtIDNumber.Name = "txtIDNumber"
         Me.txtIDNumber.Size = New System.Drawing.Size(200, 22)
-        Me.txtIDNumber.TabIndex = 11
+        Me.txtIDNumber.TabIndex = 6
         '
         'txtAmount
         '
@@ -131,7 +132,7 @@ Partial Class Form1
         Me.txtAmount.Location = New System.Drawing.Point(198, 257)
         Me.txtAmount.Name = "txtAmount"
         Me.txtAmount.Size = New System.Drawing.Size(200, 22)
-        Me.txtAmount.TabIndex = 12
+        Me.txtAmount.TabIndex = 9
         '
         'btnApplyDeposit
         '
@@ -141,7 +142,7 @@ Partial Class Form1
         Me.btnApplyDeposit.Location = New System.Drawing.Point(521, 149)
         Me.btnApplyDeposit.Name = "btnApplyDeposit"
         Me.btnApplyDeposit.Size = New System.Drawing.Size(146, 37)
-        Me.btnApplyDeposit.TabIndex = 13
+        Me.btnApplyDeposit.TabIndex = 2
         Me.btnApplyDeposit.Text = "Apply Deposit"
         Me.btnApplyDeposit.UseVisualStyleBackColor = False
         '
@@ -152,7 +153,7 @@ Partial Class Form1
         Me.dgTiful.Name = "dgTiful"
         Me.dgTiful.ReadOnly = True
         Me.dgTiful.Size = New System.Drawing.Size(634, 193)
-        Me.dgTiful.TabIndex = 14
+        Me.dgTiful.TabIndex = 10
         '
         'btnViewDeposit
         '
@@ -162,7 +163,7 @@ Partial Class Form1
         Me.btnViewDeposit.Location = New System.Drawing.Point(521, 98)
         Me.btnViewDeposit.Name = "btnViewDeposit"
         Me.btnViewDeposit.Size = New System.Drawing.Size(146, 37)
-        Me.btnViewDeposit.TabIndex = 15
+        Me.btnViewDeposit.TabIndex = 1
         Me.btnViewDeposit.Text = "View Deposits"
         Me.btnViewDeposit.UseVisualStyleBackColor = False
         '
@@ -174,7 +175,7 @@ Partial Class Form1
         Me.btnClearForm.Location = New System.Drawing.Point(281, 527)
         Me.btnClearForm.Name = "btnClearForm"
         Me.btnClearForm.Size = New System.Drawing.Size(139, 37)
-        Me.btnClearForm.TabIndex = 16
+        Me.btnClearForm.TabIndex = 11
         Me.btnClearForm.Text = "Clear"
         Me.btnClearForm.UseVisualStyleBackColor = False
         '
@@ -186,17 +187,18 @@ Partial Class Form1
         Me.btnUpdateDeposit.Location = New System.Drawing.Point(521, 200)
         Me.btnUpdateDeposit.Name = "btnUpdateDeposit"
         Me.btnUpdateDeposit.Size = New System.Drawing.Size(146, 37)
-        Me.btnUpdateDeposit.TabIndex = 17
+        Me.btnUpdateDeposit.TabIndex = 3
         Me.btnUpdateDeposit.Text = "Update Deposits"
         Me.btnUpdateDeposit.UseVisualStyleBackColor = False
         '
         'txtDepositID
         '
         Me.txtDepositID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDepositID.ForeColor = System.Drawing.SystemColors.WindowText
         Me.txtDepositID.Location = New System.Drawing.Point(198, 105)
         Me.txtDepositID.Name = "txtDepositID"
         Me.txtDepositID.Size = New System.Drawing.Size(88, 22)
-        Me.txtDepositID.TabIndex = 19
+        Me.txtDepositID.TabIndex = 5
         '
         'lblDepositId
         '
@@ -217,7 +219,7 @@ Partial Class Form1
         Me.btnDeleteDeposit.Location = New System.Drawing.Point(521, 251)
         Me.btnDeleteDeposit.Name = "btnDeleteDeposit"
         Me.btnDeleteDeposit.Size = New System.Drawing.Size(146, 37)
-        Me.btnDeleteDeposit.TabIndex = 20
+        Me.btnDeleteDeposit.TabIndex = 4
         Me.btnDeleteDeposit.Text = "Delete Deposits"
         Me.btnDeleteDeposit.UseVisualStyleBackColor = False
         '
