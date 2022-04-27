@@ -1,0 +1,11 @@
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\bin\Debug\Tiful_Gemel.exe.config
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\bin\Debug\Tiful_Gemel.exe
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\bin\Debug\Tiful_Gemel.pdb
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\bin\Debug\Tiful_Gemel.xml
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.vbprojAssemblyReference.cache
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.Form1.resources
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.Resources.resources
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.vbproj.GenerateResource.cache
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.exe
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.xml
+C:\Users\IlanSh7\Documents\Visual Studio 2019\Projects\Tiful_Gemel\Tiful_Gemel\obj\Debug\Tiful_Gemel.pdb
