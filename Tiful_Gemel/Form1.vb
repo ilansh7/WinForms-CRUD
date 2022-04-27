@@ -194,4 +194,14 @@ Public Class Form1 : Implements IDisposable
         conn.Close()
         GetDepositDetails(False)
     End Sub
+
+
+    Private Sub dgTiful_CellMouseClick(sender As Object, e As DataGridViewCellMouseEventArgs) Handles dgTiful.CellMouseClick
+        If e.RowIndex >= 0 Then
+            Dim row As DataGridViewRow = dgTiful.Rows(e.RowIndex)
+            txtDepositID.Text = row.Cells(0).Value.ToString
+            txtAmount.Text = row.Cells(4).Value.ToString
+            'txtCountry.Text = row.Cells(2).Value.ToString
+        End If
+    End Sub
 End Class

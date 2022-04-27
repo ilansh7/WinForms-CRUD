@@ -188,7 +188,7 @@ Partial Class Form1
         Me.btnUpdateDeposit.Name = "btnUpdateDeposit"
         Me.btnUpdateDeposit.Size = New System.Drawing.Size(146, 37)
         Me.btnUpdateDeposit.TabIndex = 3
-        Me.btnUpdateDeposit.Text = "Update Deposits"
+        Me.btnUpdateDeposit.Text = "Update Deposit"
         Me.btnUpdateDeposit.UseVisualStyleBackColor = False
         '
         'txtDepositID
@@ -220,7 +220,7 @@ Partial Class Form1
         Me.btnDeleteDeposit.Name = "btnDeleteDeposit"
         Me.btnDeleteDeposit.Size = New System.Drawing.Size(146, 37)
         Me.btnDeleteDeposit.TabIndex = 4
-        Me.btnDeleteDeposit.Text = "Delete Deposits"
+        Me.btnDeleteDeposit.Text = "Delete Deposit"
         Me.btnDeleteDeposit.UseVisualStyleBackColor = False
         '
         'Form1
