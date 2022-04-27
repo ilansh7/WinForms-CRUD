@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tiful_Gemel", "Tiful_Gemel\Tiful_Gemel.vbproj", "{81CA36EF-3C7F-407C-9072-2D97CCE927C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CA36EF-3C7F-407C-9072-2D97CCE927C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CA36EF-3C7F-407C-9072-2D97CCE927C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CA36EF-3C7F-407C-9072-2D97CCE927C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CA36EF-3C7F-407C-9072-2D97CCE927C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC31529D-B91B-4881-BC67-B9A61DB3AD0C}
+	EndGlobalSection
+EndGlobal
